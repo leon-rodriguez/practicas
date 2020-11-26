@@ -14,3 +14,11 @@ for ( var i = 0 ; i < cantidad_autos ; i++){
     var precio = prompt("cual es el precio?");
     autos.push(new auto(marca, modelo, annio, precio));
 }
+
+/*
+Vos armaste una funcion constructora crearAutos asi que deberias hacer
+new crearAutos(...) en lugar de new auto(...)
+Yo usaria 'auto' como nombre de la funcion ya que te devuelve un auto
+Con ese cambio ya anda el loop, despues tendrias que ver que hacer
+con tu array autos, pero en principio podes poner un console.log(autos)
+*/
